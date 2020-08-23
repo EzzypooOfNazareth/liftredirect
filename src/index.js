@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+window.onload = function() {
+  window.location.replace("https://www.lift-church.com");
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
